@@ -1,8 +1,7 @@
-
 {
     "name": "Current Time PWA",
     "short_name": "TimePWA",
-    "start_url": "/",
+    "start_url": ".",
     "display": "standalone",
     "background_color": "#f4f4f4",
     "theme_color": "#4A90E2",

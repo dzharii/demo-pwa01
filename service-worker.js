@@ -1,6 +1,12 @@
-
 const cacheName = 'timePWA-v1';
-const filesToCache = [    '/',    '/index.html',    '/styles.css',    '/script.js',    '/manifest.json',    '/icon.png'];
+const filesToCache = [
+    '/demo-pwa01/',
+    '/demo-pwa01/index.html',
+    '/demo-pwa01/styles.css',
+    '/demo-pwa01/script.js',
+    '/demo-pwa01/manifest.json',
+    '/demo-pwa01/icon.png'
+];
 
 self.addEventListener('install', event => {
     event.waitUntil(

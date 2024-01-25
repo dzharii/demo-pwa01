@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', () => {
     const timeDisplay = document.getElementById('timeDisplay');
     setInterval(() => {
